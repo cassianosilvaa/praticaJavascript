@@ -7,7 +7,7 @@ const ladosIguais = "Equilátero";
 
 if (ladoA < ladoB + ladoC && ladoB < ladoA + ladoC && ladoC < ladoA + ladoB) {
     if (
-        (ladoA == ladoB && ladoA == ladoC) ||
+        (ladoA == ladoB && ladoA == ladoC) || 
         (ladoB == ladoC && ladoC == ladoA)
     ) {
         console.log(`O tipo do triângulo é: ${ladosIguais} `);
@@ -17,7 +17,7 @@ if (ladoA < ladoB + ladoC && ladoB < ladoA + ladoC && ladoC < ladoA + ladoB) {
         console.log(`O tipo do triângulo é: ${doisLadosIguais} `);
     }
 } else {
-    console.log("Valores fornecidos não formam um triângulo!");
+    console.log("Valores fornecidos não formam um triângulo!"); 
 }
 
 // Crie um algo ritmo que armazene três valores, para cada um dos

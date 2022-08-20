@@ -1,11 +1,14 @@
 let numInt = Number(prompt("Digite aqui um número inteiro: "));
 
-
 function parOuImpar() {
-    if (numInt % 2 == 0) {
-        alert("Número é par.");
+    if (numInt >= 0) {
+        if (numInt % 2 == 0) {
+            alert("Número é par.");
+        } else {
+            alert("Número é ímpar.");
+        }
     } else {
-        alert("Número é ímpar.");
+        alert("Digite um número válido! (positivo)");
     }
 }
 

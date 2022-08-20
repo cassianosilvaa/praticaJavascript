@@ -11,7 +11,7 @@ let pValido = (vValidos / totalEleitores) * 100;
 let totalP = pBranco + pNulo + pValido;
 
 if (totalEleitores < totalP) {
-    alert("Desculpe, mas os número  s não fecham.");
+    alert("Desculpe, mas os números não fecham.");
 } else {
     alert(
         `Desses ${totalEleitores} eleitores;\n ${pBranco.toFixed(
